@@ -8,7 +8,7 @@ from causalimpact.inferences import compile_posterior_inferences
 # from causalimpact.inferences import compile_na_inferences
 
 
-class CausalImpact(object):
+class CausalImpact2(object):
 
     def __init__(self, data=None, pre_period=None, post_period=None,
                  model_args=None, ucm_model=None, post_period_response=None,
